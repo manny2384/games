@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
     "start": "react-scripts start",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/manny2384/games/issues"
   },
-  "homepage": "https://manny2384.gihub.io/games"
+  "homepage": "https://github.com/manny2384/manny2384games.github.io.git"
 }
