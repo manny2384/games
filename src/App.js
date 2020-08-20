@@ -8,7 +8,7 @@ class App extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            games:['TicTacToe', 'Four-Square', 'Monty Hall'],
+            games:['TicTacToe', 'Connect 4', 'Monty Hall'],
             show: <> </>
         }
 
@@ -22,7 +22,7 @@ class App extends React.Component{
             case "TicTacToe":
                 Temp = <TicTacToe />
                 break;
-            case "Four-Square":
+            case "Connect 4":
                 Temp = <FourSquare />
                 break;
             case "Monty Hall":
