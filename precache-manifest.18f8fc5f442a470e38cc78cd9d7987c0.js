@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19505f6416d10b19884ead9dd96bfb79",
+    "revision": "11dacc6e7de9feff44dffc7fc12a0237",
     "url": "/manny2384games.github.io/index.html"
   },
   {
-    "revision": "ede94d821932c0fd87dd",
+    "revision": "9f62811d1a93f082565f",
     "url": "/manny2384games.github.io/static/css/main.04d37b99.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/manny2384games.github.io/static/js/2.9c9cc210.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ede94d821932c0fd87dd",
-    "url": "/manny2384games.github.io/static/js/main.67ec05fa.chunk.js"
+    "revision": "9f62811d1a93f082565f",
+    "url": "/manny2384games.github.io/static/js/main.8ff18e68.chunk.js"
   },
   {
     "revision": "b79bf200786ef8beb989",
