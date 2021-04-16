@@ -9,7 +9,7 @@ class App extends React.Component{
         super(props);
         this.state = {
             games:['TicTacToe', 'Connect 4', 'Monty Hall'],
-            show: <> </>
+            show: <TicTacToe />
         }
 
         this.handleClick = this.handleClick.bind(this);
@@ -29,7 +29,7 @@ class App extends React.Component{
                 Temp = <Monty />
                 break;
             default:
-                Temp = <> </>;
+                Temp = <TicTacToe />;
                 break;
         }
 

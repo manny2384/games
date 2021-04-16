@@ -305,7 +305,7 @@ class FourSquare extends React.Component {
        // button event handler fctn: selectMove(col)
        let chooseCol = this.state.gameboard[0].map((item,index)=>{
            return <button id='chooseBtn' key={index} onClick={(e)=>this.selectMove(index, e)}>
-               Choose Column: {index} </button>
+               Col: {index} </button>
        })
 
  
@@ -316,12 +316,16 @@ class FourSquare extends React.Component {
             </section>
             
             <section className='connect_4_stats'>
+                <div>
                 <button onClick={this.resetHandler.bind(this)}> Reset </button>
+                </div>
+                <div>
                 <select id='connect_4level'>
                     <option>Easy</option>
                     <option>Medium</option>
                     <option>Hard</option>
                 </select>
+                </div>
                 <div>
                     <p> Pc Wins: {this.state.pc_wins} </p>
                     <p> Player Wins: {this.state.player_wins} </p>

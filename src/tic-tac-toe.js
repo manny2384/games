@@ -218,12 +218,16 @@ class TicTacToe extends React.Component {
             <section className='tac_game' > {game} </section>
         </section>
         <section className='tic_tac_stats'>
+            <div>
             <button onClick={this.restartHandler.bind(this)}> Restart </button>
+            </div>
+            <div>
             <select id='tic_tac_level'>
                 <option>Easy</option>
                 <option>Medium</option>
                 <option>Hard</option>
             </select>
+            </div>
             <div>
                 <p> PC: {this.state.pc_wins}</p>
                 <p> Player: {this.state.player_wins}</p>
