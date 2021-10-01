@@ -159,6 +159,7 @@ class TicTacToe extends React.Component {
             depth = 6;
 
         if(moves_available(this.state.game).length > 1){
+            
             // begin minimax decision making based on player 0 going next
             let decisions = minimax(JSON.parse(JSON.stringify(new_board)), false, depth);
             console.log('**************** Returned minimax decisions ', decisions);
