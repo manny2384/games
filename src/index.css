@@ -17,22 +17,25 @@ code {
   padding: 0;
 }
 
+html, body, #App {
+  height: 100%;
+  overflow: scroll;
+}
 
 body{
-  height: 100vh;
   width: 100vw;
-  background-color: rgb(21, 56, 65);
+  background-color: rgb(68, 106, 116);
 }
 
 main{
-  background-color: rgb(21, 56, 65);
+  background-color: rgb(41, 65, 65);
 }
 
 .navbar{
   width: 100%;
   height: 50px;
   background-color: rgb(0, 0, 0);
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .navbar ul{
@@ -63,11 +66,26 @@ main{
   background-color: rgb(90, 85, 85);
 }
 
-/*     Tic Tac Toe     */
+button{
+  outline: none;
+  border: 5px solid black;
+}
+
+.game-window{
+  height: calc(100% - 120px);
+}
+
+/***********************************************************************
+
+  TIC TAC TOE
+
+***********************************************************************/
 .main_Tac_grid{
   text-align: center;
-  width: 100%;
-  height: 50vh;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  padding: 100px 0;
 }
 
 .tac_game{
@@ -83,6 +101,11 @@ main{
   padding: 10px;
 }
 
+.tic_tac_stats button{
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+}
 .ticBtns{
   cursor: pointer;
 }

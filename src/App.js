@@ -52,7 +52,7 @@ class App extends React.Component{
         
         return (<> 
         <section className='navbar'> <ul> {NavBar} </ul> </section> 
-        <section> {this.state.show} </section> 
+        <section className='game-window'> {this.state.show} </section> 
         </>);
     }
 }

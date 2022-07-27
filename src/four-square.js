@@ -195,7 +195,7 @@ class FourSquare extends React.Component {
        this.state = {
            gameboard:[['0','1', '2','3','4','5','6'],['0','1','2','3','4','5','6'],
            ['0','1','2','3','4','5','6'],['0','1','2','3','4','5','6'],
-           ['0','1','2','3','4','5','6']], symbol:'X', player_wins:0, pc_wins:0
+           ['0','1','2','3','4','5','6'], ['0','1','2','3','4','5','6']], symbol:'X', player_wins:0, pc_wins:0
        }
  
        this.selectMove = this.selectMove.bind(this);
