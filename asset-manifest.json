@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/manny2384games.github.io/static/css/main.97ab6225.chunk.css",
-    "main.js": "/manny2384games.github.io/static/js/main.a5f02499.chunk.js",
-    "main.js.map": "/manny2384games.github.io/static/js/main.a5f02499.chunk.js.map",
+    "main.css": "/manny2384games.github.io/static/css/main.1c1bfef7.chunk.css",
+    "main.js": "/manny2384games.github.io/static/js/main.303fec66.chunk.js",
+    "main.js.map": "/manny2384games.github.io/static/js/main.303fec66.chunk.js.map",
     "runtime-main.js": "/manny2384games.github.io/static/js/runtime-main.8658f5c6.js",
     "runtime-main.js.map": "/manny2384games.github.io/static/js/runtime-main.8658f5c6.js.map",
-    "static/js/2.9c9cc210.chunk.js": "/manny2384games.github.io/static/js/2.9c9cc210.chunk.js",
-    "static/js/2.9c9cc210.chunk.js.map": "/manny2384games.github.io/static/js/2.9c9cc210.chunk.js.map",
+    "static/js/2.02046482.chunk.js": "/manny2384games.github.io/static/js/2.02046482.chunk.js",
+    "static/js/2.02046482.chunk.js.map": "/manny2384games.github.io/static/js/2.02046482.chunk.js.map",
     "index.html": "/manny2384games.github.io/index.html",
-    "precache-manifest.773f16ecb2d640a2c284ad45846547e5.js": "/manny2384games.github.io/precache-manifest.773f16ecb2d640a2c284ad45846547e5.js",
+    "precache-manifest.f7bc20afbf487996a01d3ab94f3036d5.js": "/manny2384games.github.io/precache-manifest.f7bc20afbf487996a01d3ab94f3036d5.js",
     "service-worker.js": "/manny2384games.github.io/service-worker.js",
-    "static/css/main.97ab6225.chunk.css.map": "/manny2384games.github.io/static/css/main.97ab6225.chunk.css.map",
-    "static/js/2.9c9cc210.chunk.js.LICENSE.txt": "/manny2384games.github.io/static/js/2.9c9cc210.chunk.js.LICENSE.txt",
+    "static/css/main.1c1bfef7.chunk.css.map": "/manny2384games.github.io/static/css/main.1c1bfef7.chunk.css.map",
+    "static/js/2.02046482.chunk.js.LICENSE.txt": "/manny2384games.github.io/static/js/2.02046482.chunk.js.LICENSE.txt",
     "static/media/img.jpg": "/manny2384games.github.io/static/media/img.4a134fa3.jpg",
     "static/media/logo.jpg": "/manny2384games.github.io/static/media/logo.b33be728.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8658f5c6.js",
-    "static/js/2.9c9cc210.chunk.js",
-    "static/css/main.97ab6225.chunk.css",
-    "static/js/main.a5f02499.chunk.js"
+    "static/js/2.02046482.chunk.js",
+    "static/css/main.1c1bfef7.chunk.css",
+    "static/js/main.303fec66.chunk.js"
   ]
 }
